@@ -1,5 +1,5 @@
 /* 
-   Program which calculates plot points for the weierstrass_function at arbitrary range and increment level
+   Program which calculates plot points for the weierstrass_function at an arbitrary range and increment level
 */
 #include <stdio.h>
 #include <stdlib.h>                                                              
@@ -7,7 +7,7 @@
 
 int
 main(int argc, char **argv) {
-
+  
   FILE *fp;                               
   fp = fopen("weierstrass_function_plot", "w");        
   
