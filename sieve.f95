@@ -1,3 +1,5 @@
+! sieve of eratosthenes algo implementation 
+
 program sieve
 
     implicit none
